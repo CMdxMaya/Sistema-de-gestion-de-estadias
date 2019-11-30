@@ -1,0 +1,107 @@
+.mon{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+
+.title{
+	color: #FB6C3A;
+	text-align: center;
+}
+.titlea{
+	color: #FFFFFF;
+	text-align: center;
+}
+.content-wrapper{
+	background-image: url(../img/lilkikos.jpg);
+}
+
+.formulario{
+position: relative;
+bottom: 50px;
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background-color: white;
+	border-radius: 7px;
+}
+
+
+.formulariodo input{
+position: relative;
+bottom: -100px;
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background-color: white;
+	border-radius: 7px;
+}
+
+
+.sub{
+	margin: auto;
+	text-align: center;
+	color: #581845;
+}
+
+.btn{
+	background-color: #900C3F;
+	border-color: #900C3F;
+	color: white;
+}
+
+.btn:hover{
+background-color: #C70039;
+	border-color: #C70039;
+
+}
+
+.tab{
+	margin: 50px auto;
+
+}
+.input48{
+
+	background-color: #F7E1D1;
+	border: 2px solid #581845;
+}
+.contenedor{
+width: 100%;
+max-width: 500px;
+margin: auto;
+}
+
+input{
+	
+	padding: 5px 30px;
+	border-color: red;
+	flex-wrap: wrap;
+	width: 48%;
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 5px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+	text-align: center;
+
+}
+
+td:nth-clild(even){
+	background-color: #111111;
+}
+tr:hover{
+background-color: #246355;
+color: white;
+}
+

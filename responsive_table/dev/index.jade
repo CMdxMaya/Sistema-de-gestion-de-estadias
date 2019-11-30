@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0")
+    link(rel="stylesheet", href="styles.css")
+    title
+  body
+    h1 Truco CSS 29 - Tabla responsive
+
+    .table-container
+      table.table-rwd
+        tr
+          th
+          -for(var i = 1; i < 9; i++)
+            th Periodo #{i}
+        -for(var n = 1; n < 9; n++)
+          tr
+            td Producto #{n}
+            -for(var i = 100; i < 900; i += 100)
+              td #{i*n}

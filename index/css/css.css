@@ -1,0 +1,15 @@
+.btn-primary{
+	background-color: #8CFB3A;
+}
+.contenedor{
+width: 100%;
+max-width: 500px;
+margin: auto;
+}
+
+input{
+	
+	padding: 5px 30px;
+	flex-wrap: wrap;
+	width: 48%;
+}

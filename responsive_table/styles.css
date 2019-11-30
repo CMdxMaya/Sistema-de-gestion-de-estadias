@@ -1,0 +1,50 @@
+/*Estilos generales para todos los proyectos*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #333; }
+
+h1 {
+  text-align: center;
+  color: #333; }
+
+.table-rwd {
+  font-size: .85em;
+  border: 1px solid rgba(181, 213, 144, 0.5);
+  color: #666;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto; }
+  .table-rwd td, .table-rwd th {
+    padding: .8em;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5); }
+  .table-rwd th {
+    background: #4C76D8;
+    color: #fff;
+    font-weight: normal;
+    text-align: left; }
+  .table-rwd td {
+    text-align: left; }
+    .table-rwd td:before {
+      content: "";
+      color: #4C76D8; }
+    .table-rwd td:after {
+      content: ""; }
+    .table-rwd td:first-of-type {
+      text-align: left; }
+      .table-rwd td:first-of-type:before {
+        content: ""; }
+      .table-rwd td:first-of-type:after {
+        content: ""; }
+  .table-rwd tr:hover {
+    background: rgba(181, 213, 144, 0.2); }
+  .table-rwd tr td:nth-child(2n) {
+    background: rgba(181, 213, 144, 0.2); }
+
+.table-container {
+  overflow-x: auto; }
+
+

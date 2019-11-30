@@ -1,0 +1,9 @@
+tr:not([hiddenByFilter="0"]) {
+  display:none;
+}
+
+tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }

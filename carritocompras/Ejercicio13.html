@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       
+    </head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
+<body>
+
+        
+     
+			<a href="#" class="btn btn-default producto" precio="12" titulo="Terminator" role="button">Comprar</a>
+        
+     
+        
+	<script src="minicart.js"></script>
+	<script>
+	  // configuración inicial del carrito 
+	  paypal.minicart.render({
+	  strings:{
+	    button:'Pagar'
+	   ,buttonAlt: "Total"
+	   ,subtotal: 'Total:'
+	   ,empty: 'No hay productos en el carrito'
+	  }
+	  });
+	  // Eventos para agregar productos al carrito
+	  
+	   $('.producto').click(function(e){
+	       e.stopPropagation();
+		    paypal.minicart.cart.add({
+			business: 'uhperezoscar@gmail.com', // Cuenta paypal para recibir el dinero
+			item_name: $(this).attr("titulo"),
+			 amount: $(this).attr("precio"),
+			 currency_code: 'MXN',
+			
+			});
+	   });
+	  
+	</script>
+	
+</body>
+</html>
+
+
+
+
